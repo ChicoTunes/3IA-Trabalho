@@ -32,7 +32,5 @@ while True:
             sg.popup(f"Tempo: {tempo:.2f} segundos")
         except ValueError:
             sg.popup_error("Insira valores numéricos válidos.")
-        except ValueError:
-            sg.popup_error("Insira os valores corretamente.")
-
+            
 window.close()
